@@ -48,3 +48,4 @@ DATA = input("Enter a 5 digit number: ") #Take input from user
 is_valid = len(DATA) == 5 and DATA.isdigit()
 if is_valid:
     print("DATA is having 5 digits")
+    
