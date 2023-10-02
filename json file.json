@@ -1,0 +1,29 @@
+[
+  {
+    "surname": "akhil",
+    "lastname": "gupta",
+    "birthdate": "1/1/1927",
+    "died": "4/18/1995",
+    "birth place": "germany",
+    " motivation": "for his service",
+    " subject": "physics"
+  },
+  {
+    "surname": "sai",
+    "lastname": "kumar",
+    "birthdate": "1/1/1936",
+    "died": "4/18/1999",
+    "birth place": "london",
+    " motivation": "for his estemmed service",
+    " subject": "chemistry"
+  },
+  {
+    "surname": "akhil",
+    "lastname": "kumar",
+    "birthdate": "1/1/1930",
+    "died": "4/18/1999",
+    "birth place": "new york",
+    " motivation": "for his true work",
+    " subject": "maths"
+  }
+]
