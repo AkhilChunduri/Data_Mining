@@ -18,3 +18,25 @@ with open("json file2.json", "w") as f:
     json.dump(mylist, f, indent=2)
 
 
+# Initialize an empty result dictionary
+result_dict = {}
+
+# Open the JSON file for reading
+with open("items.json", "r") as input_file:
+    item_data = input_file.readlines()
+
+# Iterate over each line in the file
+for line in item_data:
+    print(line)
+    trans_dict = json.loads(line)
+
+
+
+
+
+
+    
+
+
+
+

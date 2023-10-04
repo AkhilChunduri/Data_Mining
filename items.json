@@ -1,0 +1,32 @@
+[
+    {
+      "item_id": "I01",
+      "item_price": 150,
+      "user-od": "U101",
+      "quantity": 2
+    },
+    {
+        "item_id": "I02",
+        "item_price": 100,
+        "user-od": "U102",
+        "quantity": 5
+    },
+    {
+        "item_id": "I02",
+        "item_price": 100,
+        "user-od": "U103",
+        "quantity": 10
+    },
+    {
+        "item_id": "I04",
+        "item_price": 200,
+        "user-od": "U104",
+        "quantity": 5
+    },
+    {
+        "item_id": "I03",
+        "item_price": 50,
+        "user-od": "U105",
+        "quantity": 10
+    } 
+] 
