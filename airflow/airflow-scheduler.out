@@ -1,0 +1,730 @@
+[[34m2023-10-11 14:50:10,406[0m] {[34mscheduler_job.py:[0m714} INFO[0m - Starting the scheduler[0m
+[[34m2023-10-11 14:50:10,406[0m] {[34mscheduler_job.py:[0m719} INFO[0m - Processing each file at most -1 times[0m
+[[34m2023-10-11 14:50:10,408[0m] {[34mexecutor_loader.py:[0m107} INFO[0m - Loaded executor: SequentialExecutor[0m
+[[34m2023-10-11 14:50:10,412[0m] {[34mmanager.py:[0m163} INFO[0m - Launched DagFileProcessorManager with pid: 5589[0m
+[[34m2023-10-11 14:50:10,413[0m] {[34mscheduler_job.py:[0m1408} INFO[0m - Resetting orphaned tasks for active dag runs[0m
+[[34m2023-10-11 14:50:10,425[0m] {[34msettings.py:[0m58} INFO[0m - Configured default timezone Timezone('UTC')[0m
+[2023-10-11T14:50:10.438+0000] {manager.py:409} WARNING - Because we cannot use more than 1 thread (parsing_processes = 2) when using sqlite. So we set parallelism to 1.
+[[34m2023-10-11 14:50:22,588[0m] {[34mserve_logs.py:[0m60} WARNING[0m - The Authorization header is missing: Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+Host: localhost:8793
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9
+Cache-Control: max-age=0
+X-Forwarded-For: 10.240.0.10
+Referer: https://obscure-potato-q7pjrr46qgjfxjgg.github.dev/
+X-Request-Id: 8b99e7ffd5df987ff26bd1e0a15b1fc6
+X-Real-Ip: 10.240.0.10
+X-Forwarded-Proto: https
+X-Forwarded-Host: obscure-potato-q7pjrr46qgjfxjgg-8793.app.github.dev
+X-Forwarded-Port: 443
+X-Forwarded-Scheme: https
+X-Original-Uri: /
+X-Scheme: https
+Sec-Fetch-Site: same-site
+Sec-Fetch-Mode: navigate
+Sec-Fetch-Dest: document
+Sec-Ch-Ua: "Google Chrome";v="117", "Not;A=Brand";v="8", "Chromium";v="117"
+Sec-Ch-Ua-Mobile: ?0
+Sec-Ch-Ua-Platform: "Windows"
+X-Original-Proto: http
+Proxy-Connection: Keep-Alive
+Traceparent: 00-72c1a8a000e2472757c4313c8e6ef4f5-3d3045328640c87d-00
+
+.[0m
+[[34m2023-10-11 14:50:22,589[0m] {[34mserve_logs.py:[0m104} WARNING[0m - Unknown error[0m
+Traceback (most recent call last):
+  File "/usr/local/python/3.10.8/lib/python3.10/site-packages/airflow/utils/serve_logs.py", line 61, in validate_pre_signed_url
+    abort(403)
+  File "/usr/local/python/3.10.8/lib/python3.10/site-packages/flask/helpers.py", line 310, in abort
+    current_app.aborter(code, *args, **kwargs)
+  File "/usr/local/python/3.10.8/lib/python3.10/site-packages/werkzeug/exceptions.py", line 864, in __call__
+    raise self.mapping[code](*args, **kwargs)
+werkzeug.exceptions.Forbidden: 403 Forbidden: You don't have the permission to access the requested resource. It is either read-protected or not readable by the server.[0m
+[[34m2023-10-11 14:50:22,716[0m] {[34mserve_logs.py:[0m60} WARNING[0m - The Authorization header is missing: Accept: image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8
+Host: localhost:8793
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9
+X-Forwarded-For: 10.240.0.10
+Referer: https://obscure-potato-q7pjrr46qgjfxjgg-8793.app.github.dev/
+X-Request-Id: 757ec63f3cd59ca230752a8564e738f9
+X-Real-Ip: 10.240.0.10
+X-Forwarded-Proto: https
+X-Forwarded-Host: obscure-potato-q7pjrr46qgjfxjgg-8793.app.github.dev
+X-Forwarded-Port: 443
+X-Forwarded-Scheme: https
+X-Original-Uri: /favicon.ico
+X-Scheme: https
+Sec-Ch-Ua: "Google Chrome";v="117", "Not;A=Brand";v="8", "Chromium";v="117"
+Sec-Ch-Ua-Mobile: ?0
+Sec-Ch-Ua-Platform: "Windows"
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Dest: image
+X-Original-Proto: http
+Proxy-Connection: Keep-Alive
+Traceparent: 00-d8c683d7895f41a7ab7755d4815b4de2-dace1f56fa40ecd5-00
+
+.[0m
+[[34m2023-10-11 14:50:22,717[0m] {[34mserve_logs.py:[0m104} WARNING[0m - Unknown error[0m
+Traceback (most recent call last):
+  File "/usr/local/python/3.10.8/lib/python3.10/site-packages/airflow/utils/serve_logs.py", line 61, in validate_pre_signed_url
+    abort(403)
+  File "/usr/local/python/3.10.8/lib/python3.10/site-packages/flask/helpers.py", line 310, in abort
+    current_app.aborter(code, *args, **kwargs)
+  File "/usr/local/python/3.10.8/lib/python3.10/site-packages/werkzeug/exceptions.py", line 864, in __call__
+    raise self.mapping[code](*args, **kwargs)
+werkzeug.exceptions.Forbidden: 403 Forbidden: You don't have the permission to access the requested resource. It is either read-protected or not readable by the server.[0m
+[[34m2023-10-11 14:50:25,290[0m] {[34mserve_logs.py:[0m60} WARNING[0m - The Authorization header is missing: Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+Host: localhost:8793
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9
+Cache-Control: max-age=0
+X-Forwarded-For: 10.240.0.10
+Referer: https://obscure-potato-q7pjrr46qgjfxjgg.github.dev/
+X-Request-Id: 7fd5e2fc0eb932209df9de4f0e441287
+X-Real-Ip: 10.240.0.10
+X-Forwarded-Proto: https
+X-Forwarded-Host: obscure-potato-q7pjrr46qgjfxjgg-8793.app.github.dev
+X-Forwarded-Port: 443
+X-Forwarded-Scheme: https
+X-Original-Uri: /
+X-Scheme: https
+Sec-Ch-Ua: "Google Chrome";v="117", "Not;A=Brand";v="8", "Chromium";v="117"
+Sec-Ch-Ua-Mobile: ?0
+Sec-Ch-Ua-Platform: "Windows"
+Sec-Fetch-Site: same-site
+Sec-Fetch-Mode: navigate
+Sec-Fetch-User: ?1
+Sec-Fetch-Dest: document
+X-Original-Proto: http
+Proxy-Connection: Keep-Alive
+Traceparent: 00-08f86d17a58b790c36822ebea5d9ed95-bcd4e04161cbf9fe-00
+
+.[0m
+[[34m2023-10-11 14:50:25,291[0m] {[34mserve_logs.py:[0m104} WARNING[0m - Unknown error[0m
+Traceback (most recent call last):
+  File "/usr/local/python/3.10.8/lib/python3.10/site-packages/airflow/utils/serve_logs.py", line 61, in validate_pre_signed_url
+    abort(403)
+  File "/usr/local/python/3.10.8/lib/python3.10/site-packages/flask/helpers.py", line 310, in abort
+    current_app.aborter(code, *args, **kwargs)
+  File "/usr/local/python/3.10.8/lib/python3.10/site-packages/werkzeug/exceptions.py", line 864, in __call__
+    raise self.mapping[code](*args, **kwargs)
+werkzeug.exceptions.Forbidden: 403 Forbidden: You don't have the permission to access the requested resource. It is either read-protected or not readable by the server.[0m
+[[34m2023-10-11 14:50:25,411[0m] {[34mserve_logs.py:[0m60} WARNING[0m - The Authorization header is missing: Accept: image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8
+Host: localhost:8793
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9
+X-Forwarded-For: 10.240.0.10
+Referer: https://obscure-potato-q7pjrr46qgjfxjgg-8793.app.github.dev/
+X-Request-Id: 40eac03422391c6f9e3b394c7eda6da8
+X-Real-Ip: 10.240.0.10
+X-Forwarded-Proto: https
+X-Forwarded-Host: obscure-potato-q7pjrr46qgjfxjgg-8793.app.github.dev
+X-Forwarded-Port: 443
+X-Forwarded-Scheme: https
+X-Original-Uri: /favicon.ico
+X-Scheme: https
+Sec-Ch-Ua: "Google Chrome";v="117", "Not;A=Brand";v="8", "Chromium";v="117"
+Sec-Ch-Ua-Mobile: ?0
+Sec-Ch-Ua-Platform: "Windows"
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Dest: image
+X-Original-Proto: http
+Proxy-Connection: Keep-Alive
+Traceparent: 00-dd8508f5f80f90af8bde10aa9fb8258a-23617f9f2b649aec-00
+
+.[0m
+[[34m2023-10-11 14:50:25,411[0m] {[34mserve_logs.py:[0m104} WARNING[0m - Unknown error[0m
+Traceback (most recent call last):
+  File "/usr/local/python/3.10.8/lib/python3.10/site-packages/airflow/utils/serve_logs.py", line 61, in validate_pre_signed_url
+    abort(403)
+  File "/usr/local/python/3.10.8/lib/python3.10/site-packages/flask/helpers.py", line 310, in abort
+    current_app.aborter(code, *args, **kwargs)
+  File "/usr/local/python/3.10.8/lib/python3.10/site-packages/werkzeug/exceptions.py", line 864, in __call__
+    raise self.mapping[code](*args, **kwargs)
+werkzeug.exceptions.Forbidden: 403 Forbidden: You don't have the permission to access the requested resource. It is either read-protected or not readable by the server.[0m
+[[34m2023-10-11 14:50:26,373[0m] {[34mserve_logs.py:[0m60} WARNING[0m - The Authorization header is missing: Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+Host: localhost:8793
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9
+Cache-Control: max-age=0
+X-Forwarded-For: 10.240.0.10
+Referer: https://obscure-potato-q7pjrr46qgjfxjgg.github.dev/
+X-Request-Id: 3cbdf766cbd40c50d692e37fd9ac740d
+X-Real-Ip: 10.240.0.10
+X-Forwarded-Proto: https
+X-Forwarded-Host: obscure-potato-q7pjrr46qgjfxjgg-8793.app.github.dev
+X-Forwarded-Port: 443
+X-Forwarded-Scheme: https
+X-Original-Uri: /
+X-Scheme: https
+Sec-Ch-Ua: "Google Chrome";v="117", "Not;A=Brand";v="8", "Chromium";v="117"
+Sec-Ch-Ua-Mobile: ?0
+Sec-Ch-Ua-Platform: "Windows"
+Sec-Fetch-Site: same-site
+Sec-Fetch-Mode: navigate
+Sec-Fetch-User: ?1
+Sec-Fetch-Dest: document
+X-Original-Proto: http
+Proxy-Connection: Keep-Alive
+Traceparent: 00-bdac9f198b14ccba60da74ed3fe6fb56-a9a9c2d9b94995ad-00
+
+.[0m
+[[34m2023-10-11 14:50:26,373[0m] {[34mserve_logs.py:[0m104} WARNING[0m - Unknown error[0m
+Traceback (most recent call last):
+  File "/usr/local/python/3.10.8/lib/python3.10/site-packages/airflow/utils/serve_logs.py", line 61, in validate_pre_signed_url
+    abort(403)
+  File "/usr/local/python/3.10.8/lib/python3.10/site-packages/flask/helpers.py", line 310, in abort
+    current_app.aborter(code, *args, **kwargs)
+  File "/usr/local/python/3.10.8/lib/python3.10/site-packages/werkzeug/exceptions.py", line 864, in __call__
+    raise self.mapping[code](*args, **kwargs)
+werkzeug.exceptions.Forbidden: 403 Forbidden: You don't have the permission to access the requested resource. It is either read-protected or not readable by the server.[0m
+[[34m2023-10-11 14:50:26,500[0m] {[34mserve_logs.py:[0m60} WARNING[0m - The Authorization header is missing: Accept: image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8
+Host: localhost:8793
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9
+X-Forwarded-For: 10.240.0.10
+Referer: https://obscure-potato-q7pjrr46qgjfxjgg-8793.app.github.dev/
+X-Request-Id: 3f51ed6007e9856647b345a02c89b5a6
+X-Real-Ip: 10.240.0.10
+X-Forwarded-Proto: https
+X-Forwarded-Host: obscure-potato-q7pjrr46qgjfxjgg-8793.app.github.dev
+X-Forwarded-Port: 443
+X-Forwarded-Scheme: https
+X-Original-Uri: /favicon.ico
+X-Scheme: https
+Sec-Ch-Ua: "Google Chrome";v="117", "Not;A=Brand";v="8", "Chromium";v="117"
+Sec-Ch-Ua-Mobile: ?0
+Sec-Ch-Ua-Platform: "Windows"
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Dest: image
+X-Original-Proto: http
+Proxy-Connection: Keep-Alive
+Traceparent: 00-0fa0a89346c2ee54b6e0e3caa31d0e9c-b8e85693195432fb-00
+
+.[0m
+[[34m2023-10-11 14:50:26,501[0m] {[34mserve_logs.py:[0m104} WARNING[0m - Unknown error[0m
+Traceback (most recent call last):
+  File "/usr/local/python/3.10.8/lib/python3.10/site-packages/airflow/utils/serve_logs.py", line 61, in validate_pre_signed_url
+    abort(403)
+  File "/usr/local/python/3.10.8/lib/python3.10/site-packages/flask/helpers.py", line 310, in abort
+    current_app.aborter(code, *args, **kwargs)
+  File "/usr/local/python/3.10.8/lib/python3.10/site-packages/werkzeug/exceptions.py", line 864, in __call__
+    raise self.mapping[code](*args, **kwargs)
+werkzeug.exceptions.Forbidden: 403 Forbidden: You don't have the permission to access the requested resource. It is either read-protected or not readable by the server.[0m
+[[34m2023-10-11 14:50:27,217[0m] {[34mserve_logs.py:[0m60} WARNING[0m - The Authorization header is missing: Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+Host: localhost:8793
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9
+Cache-Control: max-age=0
+X-Forwarded-For: 10.240.0.10
+Referer: https://obscure-potato-q7pjrr46qgjfxjgg.github.dev/
+X-Request-Id: 54f95da896bdac31a53f403bb2bcf364
+X-Real-Ip: 10.240.0.10
+X-Forwarded-Proto: https
+X-Forwarded-Host: obscure-potato-q7pjrr46qgjfxjgg-8793.app.github.dev
+X-Forwarded-Port: 443
+X-Forwarded-Scheme: https
+X-Original-Uri: /
+X-Scheme: https
+Sec-Ch-Ua: "Google Chrome";v="117", "Not;A=Brand";v="8", "Chromium";v="117"
+Sec-Ch-Ua-Mobile: ?0
+Sec-Ch-Ua-Platform: "Windows"
+Sec-Fetch-Site: same-site
+Sec-Fetch-Mode: navigate
+Sec-Fetch-User: ?1
+Sec-Fetch-Dest: document
+X-Original-Proto: http
+Proxy-Connection: Keep-Alive
+Traceparent: 00-08ee0d4535608dd9b5ba22b9e5871429-346fab55f59d2792-00
+
+.[0m
+[[34m2023-10-11 14:50:27,217[0m] {[34mserve_logs.py:[0m104} WARNING[0m - Unknown error[0m
+Traceback (most recent call last):
+  File "/usr/local/python/3.10.8/lib/python3.10/site-packages/airflow/utils/serve_logs.py", line 61, in validate_pre_signed_url
+    abort(403)
+  File "/usr/local/python/3.10.8/lib/python3.10/site-packages/flask/helpers.py", line 310, in abort
+    current_app.aborter(code, *args, **kwargs)
+  File "/usr/local/python/3.10.8/lib/python3.10/site-packages/werkzeug/exceptions.py", line 864, in __call__
+    raise self.mapping[code](*args, **kwargs)
+werkzeug.exceptions.Forbidden: 403 Forbidden: You don't have the permission to access the requested resource. It is either read-protected or not readable by the server.[0m
+[[34m2023-10-11 14:50:27,282[0m] {[34mserve_logs.py:[0m60} WARNING[0m - The Authorization header is missing: Accept: image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8
+Host: localhost:8793
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9
+X-Forwarded-For: 10.240.0.10
+Referer: https://obscure-potato-q7pjrr46qgjfxjgg-8793.app.github.dev/
+X-Request-Id: fe89ebc5ea65e18c838c64b4446efa69
+X-Real-Ip: 10.240.0.10
+X-Forwarded-Proto: https
+X-Forwarded-Host: obscure-potato-q7pjrr46qgjfxjgg-8793.app.github.dev
+X-Forwarded-Port: 443
+X-Forwarded-Scheme: https
+X-Original-Uri: /favicon.ico
+X-Scheme: https
+Sec-Ch-Ua: "Google Chrome";v="117", "Not;A=Brand";v="8", "Chromium";v="117"
+Sec-Ch-Ua-Mobile: ?0
+Sec-Ch-Ua-Platform: "Windows"
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Dest: image
+X-Original-Proto: http
+Proxy-Connection: Keep-Alive
+Traceparent: 00-725b1f2595438e964a5792cb9e2462cf-6ebe843917e3f015-00
+
+.[0m
+[[34m2023-10-11 14:50:27,283[0m] {[34mserve_logs.py:[0m104} WARNING[0m - Unknown error[0m
+Traceback (most recent call last):
+  File "/usr/local/python/3.10.8/lib/python3.10/site-packages/airflow/utils/serve_logs.py", line 61, in validate_pre_signed_url
+    abort(403)
+  File "/usr/local/python/3.10.8/lib/python3.10/site-packages/flask/helpers.py", line 310, in abort
+    current_app.aborter(code, *args, **kwargs)
+  File "/usr/local/python/3.10.8/lib/python3.10/site-packages/werkzeug/exceptions.py", line 864, in __call__
+    raise self.mapping[code](*args, **kwargs)
+werkzeug.exceptions.Forbidden: 403 Forbidden: You don't have the permission to access the requested resource. It is either read-protected or not readable by the server.[0m
+[[34m2023-10-11 14:50:27,391[0m] {[34mserve_logs.py:[0m60} WARNING[0m - The Authorization header is missing: Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+Host: localhost:8793
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9
+Cache-Control: max-age=0
+X-Forwarded-For: 10.240.0.10
+Referer: https://obscure-potato-q7pjrr46qgjfxjgg.github.dev/
+X-Request-Id: 5583507555d371d5bc69354c97be9295
+X-Real-Ip: 10.240.0.10
+X-Forwarded-Proto: https
+X-Forwarded-Host: obscure-potato-q7pjrr46qgjfxjgg-8793.app.github.dev
+X-Forwarded-Port: 443
+X-Forwarded-Scheme: https
+X-Original-Uri: /
+X-Scheme: https
+Sec-Ch-Ua: "Google Chrome";v="117", "Not;A=Brand";v="8", "Chromium";v="117"
+Sec-Ch-Ua-Mobile: ?0
+Sec-Ch-Ua-Platform: "Windows"
+Sec-Fetch-Site: same-site
+Sec-Fetch-Mode: navigate
+Sec-Fetch-User: ?1
+Sec-Fetch-Dest: document
+X-Original-Proto: http
+Proxy-Connection: Keep-Alive
+Traceparent: 00-675d21d7011d80399e335bf64b10e013-dd656994a39848fd-00
+
+.[0m
+[[34m2023-10-11 14:50:27,391[0m] {[34mserve_logs.py:[0m104} WARNING[0m - Unknown error[0m
+Traceback (most recent call last):
+  File "/usr/local/python/3.10.8/lib/python3.10/site-packages/airflow/utils/serve_logs.py", line 61, in validate_pre_signed_url
+    abort(403)
+  File "/usr/local/python/3.10.8/lib/python3.10/site-packages/flask/helpers.py", line 310, in abort
+    current_app.aborter(code, *args, **kwargs)
+  File "/usr/local/python/3.10.8/lib/python3.10/site-packages/werkzeug/exceptions.py", line 864, in __call__
+    raise self.mapping[code](*args, **kwargs)
+werkzeug.exceptions.Forbidden: 403 Forbidden: You don't have the permission to access the requested resource. It is either read-protected or not readable by the server.[0m
+[[34m2023-10-11 14:50:27,462[0m] {[34mserve_logs.py:[0m60} WARNING[0m - The Authorization header is missing: Accept: image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8
+Host: localhost:8793
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9
+X-Forwarded-For: 10.240.0.10
+Referer: https://obscure-potato-q7pjrr46qgjfxjgg-8793.app.github.dev/
+X-Request-Id: 8823a98d76fffe61f3e162e941138497
+X-Real-Ip: 10.240.0.10
+X-Forwarded-Proto: https
+X-Forwarded-Host: obscure-potato-q7pjrr46qgjfxjgg-8793.app.github.dev
+X-Forwarded-Port: 443
+X-Forwarded-Scheme: https
+X-Original-Uri: /favicon.ico
+X-Scheme: https
+Sec-Ch-Ua: "Google Chrome";v="117", "Not;A=Brand";v="8", "Chromium";v="117"
+Sec-Ch-Ua-Mobile: ?0
+Sec-Ch-Ua-Platform: "Windows"
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Dest: image
+X-Original-Proto: http
+Proxy-Connection: Keep-Alive
+Traceparent: 00-19b02aad74ecbb9f15950e2fef25a6d5-f144bd1a78fcfa72-00
+
+.[0m
+[[34m2023-10-11 14:50:27,463[0m] {[34mserve_logs.py:[0m104} WARNING[0m - Unknown error[0m
+Traceback (most recent call last):
+  File "/usr/local/python/3.10.8/lib/python3.10/site-packages/airflow/utils/serve_logs.py", line 61, in validate_pre_signed_url
+    abort(403)
+  File "/usr/local/python/3.10.8/lib/python3.10/site-packages/flask/helpers.py", line 310, in abort
+    current_app.aborter(code, *args, **kwargs)
+  File "/usr/local/python/3.10.8/lib/python3.10/site-packages/werkzeug/exceptions.py", line 864, in __call__
+    raise self.mapping[code](*args, **kwargs)
+werkzeug.exceptions.Forbidden: 403 Forbidden: You don't have the permission to access the requested resource. It is either read-protected or not readable by the server.[0m
+[[34m2023-10-11 14:50:27,567[0m] {[34mserve_logs.py:[0m60} WARNING[0m - The Authorization header is missing: Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+Host: localhost:8793
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9
+Cache-Control: max-age=0
+X-Forwarded-For: 10.240.0.10
+Referer: https://obscure-potato-q7pjrr46qgjfxjgg.github.dev/
+X-Request-Id: 26d0a95c945a576b0af870e72d4f241b
+X-Real-Ip: 10.240.0.10
+X-Forwarded-Proto: https
+X-Forwarded-Host: obscure-potato-q7pjrr46qgjfxjgg-8793.app.github.dev
+X-Forwarded-Port: 443
+X-Forwarded-Scheme: https
+X-Original-Uri: /
+X-Scheme: https
+Sec-Ch-Ua: "Google Chrome";v="117", "Not;A=Brand";v="8", "Chromium";v="117"
+Sec-Ch-Ua-Mobile: ?0
+Sec-Ch-Ua-Platform: "Windows"
+Sec-Fetch-Site: same-site
+Sec-Fetch-Mode: navigate
+Sec-Fetch-User: ?1
+Sec-Fetch-Dest: document
+X-Original-Proto: http
+Proxy-Connection: Keep-Alive
+Traceparent: 00-c7cfe60acd4199c1b9713e15dfaf4b7d-edbce32d2085d2ca-00
+
+.[0m
+[[34m2023-10-11 14:50:27,568[0m] {[34mserve_logs.py:[0m104} WARNING[0m - Unknown error[0m
+Traceback (most recent call last):
+  File "/usr/local/python/3.10.8/lib/python3.10/site-packages/airflow/utils/serve_logs.py", line 61, in validate_pre_signed_url
+    abort(403)
+  File "/usr/local/python/3.10.8/lib/python3.10/site-packages/flask/helpers.py", line 310, in abort
+    current_app.aborter(code, *args, **kwargs)
+  File "/usr/local/python/3.10.8/lib/python3.10/site-packages/werkzeug/exceptions.py", line 864, in __call__
+    raise self.mapping[code](*args, **kwargs)
+werkzeug.exceptions.Forbidden: 403 Forbidden: You don't have the permission to access the requested resource. It is either read-protected or not readable by the server.[0m
+[[34m2023-10-11 14:50:27,630[0m] {[34mserve_logs.py:[0m60} WARNING[0m - The Authorization header is missing: Accept: image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8
+Host: localhost:8793
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9
+X-Forwarded-For: 10.240.0.10
+Referer: https://obscure-potato-q7pjrr46qgjfxjgg-8793.app.github.dev/
+X-Request-Id: b347a268a435e4c33abf654fe0861009
+X-Real-Ip: 10.240.0.10
+X-Forwarded-Proto: https
+X-Forwarded-Host: obscure-potato-q7pjrr46qgjfxjgg-8793.app.github.dev
+X-Forwarded-Port: 443
+X-Forwarded-Scheme: https
+X-Original-Uri: /favicon.ico
+X-Scheme: https
+Sec-Ch-Ua: "Google Chrome";v="117", "Not;A=Brand";v="8", "Chromium";v="117"
+Sec-Ch-Ua-Mobile: ?0
+Sec-Ch-Ua-Platform: "Windows"
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Dest: image
+X-Original-Proto: http
+Proxy-Connection: Keep-Alive
+Traceparent: 00-e8a5dde4d069e29841fcbc06c4b3a83e-6e4d1feb0f4ec1d6-00
+
+.[0m
+[[34m2023-10-11 14:50:27,631[0m] {[34mserve_logs.py:[0m104} WARNING[0m - Unknown error[0m
+Traceback (most recent call last):
+  File "/usr/local/python/3.10.8/lib/python3.10/site-packages/airflow/utils/serve_logs.py", line 61, in validate_pre_signed_url
+    abort(403)
+  File "/usr/local/python/3.10.8/lib/python3.10/site-packages/flask/helpers.py", line 310, in abort
+    current_app.aborter(code, *args, **kwargs)
+  File "/usr/local/python/3.10.8/lib/python3.10/site-packages/werkzeug/exceptions.py", line 864, in __call__
+    raise self.mapping[code](*args, **kwargs)
+werkzeug.exceptions.Forbidden: 403 Forbidden: You don't have the permission to access the requested resource. It is either read-protected or not readable by the server.[0m
+[[34m2023-10-11 14:50:27,784[0m] {[34mserve_logs.py:[0m60} WARNING[0m - The Authorization header is missing: Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+Host: localhost:8793
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9
+Cache-Control: max-age=0
+X-Forwarded-For: 10.240.0.10
+Referer: https://obscure-potato-q7pjrr46qgjfxjgg.github.dev/
+X-Request-Id: e78dad43c8634580bae74e5f0670667e
+X-Real-Ip: 10.240.0.10
+X-Forwarded-Proto: https
+X-Forwarded-Host: obscure-potato-q7pjrr46qgjfxjgg-8793.app.github.dev
+X-Forwarded-Port: 443
+X-Forwarded-Scheme: https
+X-Original-Uri: /
+X-Scheme: https
+Sec-Ch-Ua: "Google Chrome";v="117", "Not;A=Brand";v="8", "Chromium";v="117"
+Sec-Ch-Ua-Mobile: ?0
+Sec-Ch-Ua-Platform: "Windows"
+Sec-Fetch-Site: same-site
+Sec-Fetch-Mode: navigate
+Sec-Fetch-User: ?1
+Sec-Fetch-Dest: document
+X-Original-Proto: http
+Proxy-Connection: Keep-Alive
+Traceparent: 00-c51de41383d814e9d30fe9f4ac27a9d5-9b2d956fa91f0063-00
+
+.[0m
+[[34m2023-10-11 14:50:27,785[0m] {[34mserve_logs.py:[0m104} WARNING[0m - Unknown error[0m
+Traceback (most recent call last):
+  File "/usr/local/python/3.10.8/lib/python3.10/site-packages/airflow/utils/serve_logs.py", line 61, in validate_pre_signed_url
+    abort(403)
+  File "/usr/local/python/3.10.8/lib/python3.10/site-packages/flask/helpers.py", line 310, in abort
+    current_app.aborter(code, *args, **kwargs)
+  File "/usr/local/python/3.10.8/lib/python3.10/site-packages/werkzeug/exceptions.py", line 864, in __call__
+    raise self.mapping[code](*args, **kwargs)
+werkzeug.exceptions.Forbidden: 403 Forbidden: You don't have the permission to access the requested resource. It is either read-protected or not readable by the server.[0m
+[[34m2023-10-11 14:50:27,847[0m] {[34mserve_logs.py:[0m60} WARNING[0m - The Authorization header is missing: Accept: image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8
+Host: localhost:8793
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9
+X-Forwarded-For: 10.240.0.10
+Referer: https://obscure-potato-q7pjrr46qgjfxjgg-8793.app.github.dev/
+X-Request-Id: 998e83a3277a2f4551153ee3e9ca37cc
+X-Real-Ip: 10.240.0.10
+X-Forwarded-Proto: https
+X-Forwarded-Host: obscure-potato-q7pjrr46qgjfxjgg-8793.app.github.dev
+X-Forwarded-Port: 443
+X-Forwarded-Scheme: https
+X-Original-Uri: /favicon.ico
+X-Scheme: https
+Sec-Ch-Ua: "Google Chrome";v="117", "Not;A=Brand";v="8", "Chromium";v="117"
+Sec-Ch-Ua-Mobile: ?0
+Sec-Ch-Ua-Platform: "Windows"
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Dest: image
+X-Original-Proto: http
+Proxy-Connection: Keep-Alive
+Traceparent: 00-16f31beba56883b5edbb2ccfcd196c85-c3135fc14b63a4ba-00
+
+.[0m
+[[34m2023-10-11 14:50:27,847[0m] {[34mserve_logs.py:[0m104} WARNING[0m - Unknown error[0m
+Traceback (most recent call last):
+  File "/usr/local/python/3.10.8/lib/python3.10/site-packages/airflow/utils/serve_logs.py", line 61, in validate_pre_signed_url
+    abort(403)
+  File "/usr/local/python/3.10.8/lib/python3.10/site-packages/flask/helpers.py", line 310, in abort
+    current_app.aborter(code, *args, **kwargs)
+  File "/usr/local/python/3.10.8/lib/python3.10/site-packages/werkzeug/exceptions.py", line 864, in __call__
+    raise self.mapping[code](*args, **kwargs)
+werkzeug.exceptions.Forbidden: 403 Forbidden: You don't have the permission to access the requested resource. It is either read-protected or not readable by the server.[0m
+[[34m2023-10-11 14:50:41,112[0m] {[34mserve_logs.py:[0m60} WARNING[0m - The Authorization header is missing: Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+Host: localhost:8793
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9
+Cache-Control: max-age=0
+X-Forwarded-For: 10.240.1.75
+Referer: https://github.com/
+X-Request-Id: 2c52dc81715b159da9ef879f1ef78fa9
+X-Real-Ip: 10.240.1.75
+X-Forwarded-Proto: https
+X-Forwarded-Host: obscure-potato-q7pjrr46qgjfxjgg-8793.app.github.dev
+X-Forwarded-Port: 443
+X-Forwarded-Scheme: https
+X-Original-Uri: /
+X-Scheme: https
+Sec-Fetch-Site: cross-site
+Sec-Fetch-Mode: navigate
+Sec-Fetch-Dest: document
+Sec-Ch-Ua: "Google Chrome";v="117", "Not;A=Brand";v="8", "Chromium";v="117"
+Sec-Ch-Ua-Mobile: ?0
+Sec-Ch-Ua-Platform: "Windows"
+X-Original-Proto: http
+Proxy-Connection: Keep-Alive
+Traceparent: 00-0e305e01a62c70e5ad7db301f2fc584e-d94321aecdd41cdf-00
+
+.[0m
+[[34m2023-10-11 14:50:41,113[0m] {[34mserve_logs.py:[0m104} WARNING[0m - Unknown error[0m
+Traceback (most recent call last):
+  File "/usr/local/python/3.10.8/lib/python3.10/site-packages/airflow/utils/serve_logs.py", line 61, in validate_pre_signed_url
+    abort(403)
+  File "/usr/local/python/3.10.8/lib/python3.10/site-packages/flask/helpers.py", line 310, in abort
+    current_app.aborter(code, *args, **kwargs)
+  File "/usr/local/python/3.10.8/lib/python3.10/site-packages/werkzeug/exceptions.py", line 864, in __call__
+    raise self.mapping[code](*args, **kwargs)
+werkzeug.exceptions.Forbidden: 403 Forbidden: You don't have the permission to access the requested resource. It is either read-protected or not readable by the server.[0m
+[[34m2023-10-11 14:50:41,346[0m] {[34mserve_logs.py:[0m60} WARNING[0m - The Authorization header is missing: Accept: image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8
+Host: localhost:8793
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9
+X-Forwarded-For: 10.240.1.75
+Referer: https://obscure-potato-q7pjrr46qgjfxjgg-8793.app.github.dev/
+X-Request-Id: 0b1c2004fbfe167767c61eb95152c500
+X-Real-Ip: 10.240.1.75
+X-Forwarded-Proto: https
+X-Forwarded-Host: obscure-potato-q7pjrr46qgjfxjgg-8793.app.github.dev
+X-Forwarded-Port: 443
+X-Forwarded-Scheme: https
+X-Original-Uri: /favicon.ico
+X-Scheme: https
+Sec-Ch-Ua: "Google Chrome";v="117", "Not;A=Brand";v="8", "Chromium";v="117"
+Sec-Ch-Ua-Mobile: ?0
+Sec-Ch-Ua-Platform: "Windows"
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Dest: image
+X-Original-Proto: http
+Proxy-Connection: Keep-Alive
+Traceparent: 00-ba98979a3f99fe73177b34cb1a773836-92a0e82d7dd8e424-00
+
+.[0m
+[[34m2023-10-11 14:50:41,346[0m] {[34mserve_logs.py:[0m104} WARNING[0m - Unknown error[0m
+Traceback (most recent call last):
+  File "/usr/local/python/3.10.8/lib/python3.10/site-packages/airflow/utils/serve_logs.py", line 61, in validate_pre_signed_url
+    abort(403)
+  File "/usr/local/python/3.10.8/lib/python3.10/site-packages/flask/helpers.py", line 310, in abort
+    current_app.aborter(code, *args, **kwargs)
+  File "/usr/local/python/3.10.8/lib/python3.10/site-packages/werkzeug/exceptions.py", line 864, in __call__
+    raise self.mapping[code](*args, **kwargs)
+werkzeug.exceptions.Forbidden: 403 Forbidden: You don't have the permission to access the requested resource. It is either read-protected or not readable by the server.[0m
+[[34m2023-10-11 14:50:43,684[0m] {[34mserve_logs.py:[0m60} WARNING[0m - The Authorization header is missing: Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+Host: localhost:8793
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9
+Cache-Control: max-age=0
+X-Forwarded-For: 10.240.1.75
+Referer: https://github.com/
+X-Request-Id: ae5cd78180a33d04cbc8a4ea106c29fd
+X-Real-Ip: 10.240.1.75
+X-Forwarded-Proto: https
+X-Forwarded-Host: obscure-potato-q7pjrr46qgjfxjgg-8793.app.github.dev
+X-Forwarded-Port: 443
+X-Forwarded-Scheme: https
+X-Original-Uri: /
+X-Scheme: https
+Sec-Ch-Ua: "Google Chrome";v="117", "Not;A=Brand";v="8", "Chromium";v="117"
+Sec-Ch-Ua-Mobile: ?0
+Sec-Ch-Ua-Platform: "Windows"
+Sec-Fetch-Site: cross-site
+Sec-Fetch-Mode: navigate
+Sec-Fetch-User: ?1
+Sec-Fetch-Dest: document
+X-Original-Proto: http
+Proxy-Connection: Keep-Alive
+Traceparent: 00-ef45012162beb3e1c97d787e0735cd1e-e3f7c78f9fe17db6-00
+
+.[0m
+[[34m2023-10-11 14:50:43,684[0m] {[34mserve_logs.py:[0m104} WARNING[0m - Unknown error[0m
+Traceback (most recent call last):
+  File "/usr/local/python/3.10.8/lib/python3.10/site-packages/airflow/utils/serve_logs.py", line 61, in validate_pre_signed_url
+    abort(403)
+  File "/usr/local/python/3.10.8/lib/python3.10/site-packages/flask/helpers.py", line 310, in abort
+    current_app.aborter(code, *args, **kwargs)
+  File "/usr/local/python/3.10.8/lib/python3.10/site-packages/werkzeug/exceptions.py", line 864, in __call__
+    raise self.mapping[code](*args, **kwargs)
+werkzeug.exceptions.Forbidden: 403 Forbidden: You don't have the permission to access the requested resource. It is either read-protected or not readable by the server.[0m
+[[34m2023-10-11 14:50:44,168[0m] {[34mserve_logs.py:[0m60} WARNING[0m - The Authorization header is missing: Accept: image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8
+Host: localhost:8793
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9
+X-Forwarded-For: 10.240.1.75
+Referer: https://obscure-potato-q7pjrr46qgjfxjgg-8793.app.github.dev/
+X-Request-Id: 50405797c78687e9adbc165866f860e5
+X-Real-Ip: 10.240.1.75
+X-Forwarded-Proto: https
+X-Forwarded-Host: obscure-potato-q7pjrr46qgjfxjgg-8793.app.github.dev
+X-Forwarded-Port: 443
+X-Forwarded-Scheme: https
+X-Original-Uri: /favicon.ico
+X-Scheme: https
+Sec-Ch-Ua: "Google Chrome";v="117", "Not;A=Brand";v="8", "Chromium";v="117"
+Sec-Ch-Ua-Mobile: ?0
+Sec-Ch-Ua-Platform: "Windows"
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Dest: image
+X-Original-Proto: http
+Proxy-Connection: Keep-Alive
+Traceparent: 00-550eec2c3b08e043e2bc11d83479281b-2e8f322c0da10cf4-00
+
+.[0m
+[[34m2023-10-11 14:50:44,169[0m] {[34mserve_logs.py:[0m104} WARNING[0m - Unknown error[0m
+Traceback (most recent call last):
+  File "/usr/local/python/3.10.8/lib/python3.10/site-packages/airflow/utils/serve_logs.py", line 61, in validate_pre_signed_url
+    abort(403)
+  File "/usr/local/python/3.10.8/lib/python3.10/site-packages/flask/helpers.py", line 310, in abort
+    current_app.aborter(code, *args, **kwargs)
+  File "/usr/local/python/3.10.8/lib/python3.10/site-packages/werkzeug/exceptions.py", line 864, in __call__
+    raise self.mapping[code](*args, **kwargs)
+werkzeug.exceptions.Forbidden: 403 Forbidden: You don't have the permission to access the requested resource. It is either read-protected or not readable by the server.[0m
+[[34m2023-10-11 14:50:53,044[0m] {[34mserve_logs.py:[0m60} WARNING[0m - The Authorization header is missing: Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+Host: localhost:8793
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9
+Cache-Control: max-age=0
+X-Forwarded-For: 10.240.0.10
+Referer: https://obscure-potato-q7pjrr46qgjfxjgg.github.dev/
+X-Request-Id: 3b2c6ba44e0d0fc6e5e80b2ae9a7d050
+X-Real-Ip: 10.240.0.10
+X-Forwarded-Proto: https
+X-Forwarded-Host: obscure-potato-q7pjrr46qgjfxjgg-8793.app.github.dev
+X-Forwarded-Port: 443
+X-Forwarded-Scheme: https
+X-Original-Uri: /
+X-Scheme: https
+Sec-Ch-Ua: "Google Chrome";v="117", "Not;A=Brand";v="8", "Chromium";v="117"
+Sec-Ch-Ua-Mobile: ?0
+Sec-Ch-Ua-Platform: "Windows"
+Sec-Fetch-Site: same-site
+Sec-Fetch-Mode: navigate
+Sec-Fetch-User: ?1
+Sec-Fetch-Dest: document
+X-Original-Proto: http
+Proxy-Connection: Keep-Alive
+Traceparent: 00-bc244b6c891cf376ac775a7fd408f66e-484ee5c1528010a6-00
+
+.[0m
+[[34m2023-10-11 14:50:53,045[0m] {[34mserve_logs.py:[0m104} WARNING[0m - Unknown error[0m
+Traceback (most recent call last):
+  File "/usr/local/python/3.10.8/lib/python3.10/site-packages/airflow/utils/serve_logs.py", line 61, in validate_pre_signed_url
+    abort(403)
+  File "/usr/local/python/3.10.8/lib/python3.10/site-packages/flask/helpers.py", line 310, in abort
+    current_app.aborter(code, *args, **kwargs)
+  File "/usr/local/python/3.10.8/lib/python3.10/site-packages/werkzeug/exceptions.py", line 864, in __call__
+    raise self.mapping[code](*args, **kwargs)
+werkzeug.exceptions.Forbidden: 403 Forbidden: You don't have the permission to access the requested resource. It is either read-protected or not readable by the server.[0m
+[[34m2023-10-11 14:50:53,116[0m] {[34mserve_logs.py:[0m60} WARNING[0m - The Authorization header is missing: Accept: image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8
+Host: localhost:8793
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9
+X-Forwarded-For: 10.240.0.10
+Referer: https://obscure-potato-q7pjrr46qgjfxjgg-8793.app.github.dev/
+X-Request-Id: 44faa727f7d576fff8e46933f7b20724
+X-Real-Ip: 10.240.0.10
+X-Forwarded-Proto: https
+X-Forwarded-Host: obscure-potato-q7pjrr46qgjfxjgg-8793.app.github.dev
+X-Forwarded-Port: 443
+X-Forwarded-Scheme: https
+X-Original-Uri: /favicon.ico
+X-Scheme: https
+Sec-Ch-Ua: "Google Chrome";v="117", "Not;A=Brand";v="8", "Chromium";v="117"
+Sec-Ch-Ua-Mobile: ?0
+Sec-Ch-Ua-Platform: "Windows"
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Dest: image
+X-Original-Proto: http
+Proxy-Connection: Keep-Alive
+Traceparent: 00-6fccbfa1924e7101085026b5fdfa71b9-9ca4e82ff97f9e28-00
+
+.[0m
+[[34m2023-10-11 14:50:53,117[0m] {[34mserve_logs.py:[0m104} WARNING[0m - Unknown error[0m
+Traceback (most recent call last):
+  File "/usr/local/python/3.10.8/lib/python3.10/site-packages/airflow/utils/serve_logs.py", line 61, in validate_pre_signed_url
+    abort(403)
+  File "/usr/local/python/3.10.8/lib/python3.10/site-packages/flask/helpers.py", line 310, in abort
+    current_app.aborter(code, *args, **kwargs)
+  File "/usr/local/python/3.10.8/lib/python3.10/site-packages/werkzeug/exceptions.py", line 864, in __call__
+    raise self.mapping[code](*args, **kwargs)
+werkzeug.exceptions.Forbidden: 403 Forbidden: You don't have the permission to access the requested resource. It is either read-protected or not readable by the server.[0m
+[[34m2023-10-11 14:55:10,547[0m] {[34mscheduler_job.py:[0m1408} INFO[0m - Resetting orphaned tasks for active dag runs[0m
+[[34m2023-10-11 15:00:10,575[0m] {[34mscheduler_job.py:[0m1408} INFO[0m - Resetting orphaned tasks for active dag runs[0m
+[[34m2023-10-11 15:05:10,601[0m] {[34mscheduler_job.py:[0m1408} INFO[0m - Resetting orphaned tasks for active dag runs[0m
+[[34m2023-10-11 15:10:10,628[0m] {[34mscheduler_job.py:[0m1408} INFO[0m - Resetting orphaned tasks for active dag runs[0m
+[[34m2023-10-11 15:15:10,656[0m] {[34mscheduler_job.py:[0m1408} INFO[0m - Resetting orphaned tasks for active dag runs[0m
